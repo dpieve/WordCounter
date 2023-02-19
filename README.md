@@ -6,12 +6,12 @@ WinUI3 offers some benefits for C++ developers, but there are many limitations t
 
 Knowing those challenges, one way out for larger projects might be creating a C# based project and consume that from the C++ project as shown in the [C# Island in C++/WinRT Sample](https://github.com/CommunityToolkit/Sample-Windows-CppWinRT).
 
-#### How to use it:
+### How to use it:
 1. Type or paste some text into the input box.
 2. Click the "Submit" button to count the number of words in the text.
 3. The result will be displayed on the right side of the window.
 
-#### Showcase
+### Showcase
 <img src="/resources/showcase.gif" width="75%" height="75%"/>
 
 ## Build
@@ -22,6 +22,9 @@ To build and run this project, you'll need the following Visual Studio 2022 with
 1. Clone this repository or download the source code as a ZIP file.
 2. Open the solution file (`WordCounter.sln`) in Visual Studio.
 3. Build and run the solution.
+
+## Contributing 
+If you have any ideas or suggestions for how to improve the code, please feel free to share them with me. You can do this by opening an issue on GitHub or by creating a pull request with your proposed changes.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
