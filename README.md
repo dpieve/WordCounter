@@ -1,2 +1,24 @@
-# WordCount
-This project counts and rank the words in a given text. I developed it to test, expand my skills and knowledge about the WinUI3 framework for building modern desktop applications on Windows.
+# Word Counter in C++ using WinUI3
+
+This is a project that counts the number of words in a text. It was written in C++ to test and learn more about WinUI3, a modern UI framework for building Windows desktop applications.
+
+WinUI3 offers some benefits for C++ developers, there are also some limitations to be aware of. For example, WinUI3 has some issues related to data binding that can make it more difficult to work with than C# and XAML. Additionally, there are more details to configure in WinUI3 than in C# and XAML for creating something simple like this Word Counter app. 
+
+Also, I couldn't find a straightforward way to make a `DataGrid` work to present the data I wanted. So, I used 3 `ListView` instead.
+ 
+#### How to use it:
+1. Type or paste some text into the input box.
+2. Click the "Submit" button to count the number of words in the text.
+3. The result will be displayed on the right side of the window.
+
+## Build
+
+To build and run this project, you'll need the following Visual Studio 2022 with the "Desktop development with C++" workload.
+
+#### Building and running the project:
+1. Clone this repository or download the source code as a ZIP file.
+2. Open the solution file (`WordCounter.sln`) in Visual Studio.
+3. Build and run the solution.
+
+## License:
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
