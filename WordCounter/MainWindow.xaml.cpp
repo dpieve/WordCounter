@@ -112,6 +112,8 @@ void winrt::WordCounter::implementation::MainWindow::PushWords(winrt::hstring co
 
 void winrt::WordCounter::implementation::MainWindow::SubmitButton_Click(winrt::Windows::Foundation::IInspectable const& sender, winrt::Microsoft::UI::Xaml::RoutedEventArgs const& e)
 {
+	CleanTable();
+
 	winrt::hstring text = WordsTextBox().Text();
 	PushWords(text);
 }
